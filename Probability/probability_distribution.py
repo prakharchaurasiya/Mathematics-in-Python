@@ -17,6 +17,9 @@ for i in range(n):
 
 plt.figure(figsize=(10,8))
 plt.hist(distribution, bins = 50)
+plt.title('Probability Distribution of toss.')
+plt.xlabel('Number of Heads in 100 coin toss.')
+plt.ylabel('Occurrences')
 plt.show()
 
 print(f'Probability of getting 50 heads in 100 toss: {np.count_nonzero(distribution == 50)/n}')
