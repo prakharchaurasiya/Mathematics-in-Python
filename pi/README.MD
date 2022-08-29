@@ -2,6 +2,9 @@ Calculating value of pi in python.
 
 pi_simulation.py
 -------------------
+
+![](pi.png)
+
 ```
 input: N=100_000
 
